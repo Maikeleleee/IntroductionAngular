@@ -1,0 +1,10 @@
+<p>Nom : <input type="text" ng-model="name"></p>
+<p>prenom : <input type="text" ng-model="lastname"></p>
+<span>Votre nom est : {{name}}</span> </br>
+<span>Votre prenom est : {{lastname}}</span>
+<ol>
+    <li ng-repeat="film in films">{{film}}</li>
+</ol>
+<input ng-model="ajoutFilm" type="text" name"ajoutFilm">
+<button ng-click="ajouterFilm()">Ajouter un film</button>
+</input>
